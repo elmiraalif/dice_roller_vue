@@ -1,24 +1,13 @@
-# dice_roller
+# Dice Roller
 
-## Project setup
-```
-npm install
-```
+This is a very basic dice roller created in Vue CLI.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+- There are 2 players in this game. Once the dice roller button gets clicked, both dices will show a random number. The result will depend on the dice number. The player whose number is greater wins and if the dice numbers are the same, the game will be a draw!
+- Once the roll happens, the user can start a new game by clicking on the same button which, now, has the title of "New Game", and the game begins!
 
-### Compiles and minifies for production
-```
-npm run build
-```
+!["Game Image"](/dice-roller.png)
 
-### Lints and fixes files
-```
-npm run lint
-```
+## Technologies:
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+- Vue.js
+- animate.css
